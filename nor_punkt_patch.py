@@ -67,7 +67,7 @@ def sent_patch(sentences):
                 sent_build += current_pop[j]
 
                 if sent_build[-1] == ':':
-                    if j+1 < len(current_pop) and  current_pop[j+1].isspace():
+                    if j+1 < len(current_pop) and current_pop[j+1].isspace():
                         current_sent.append(sent_build)
                         sent_build = ""
 
