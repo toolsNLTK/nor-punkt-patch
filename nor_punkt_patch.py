@@ -13,7 +13,6 @@ Split after delimiter and guillemet:
     Punkt: ∗ ’[...] regninger og sånn?» Det var liksom ikke [...]’
     Gold: ’[...] regninger og sånn?»’ | ’Det var liksom ikke [...]’
 
-
 Split after multiple delimiters:
 
     Punkt: ∗ ’[...] meg ned i bilen i går kveld ... Hvordan resten [...]’
@@ -57,6 +56,7 @@ def sent_patch(sentences):
                 
         if alpha != 1:
             nonalpha = current_sent
+            
         else:
             current_sent = [current_sent]
             sent_build = ""
@@ -83,6 +83,7 @@ def sent_patch(sentences):
                         if current_pop[j+1].isspace() and current_pop[j+2].isupper():
                             current_sent.append(sent_build)
                             sent_build = ""
+                            
             if len(sent_build) != 0:
                 current_sent.append(sent_build)
 
