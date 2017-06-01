@@ -1,7 +1,7 @@
 """
 Patch for Norwegian sentence tokenizer
 
-Takes a list of sentences and further tokenize the setences;
+Takes a list of sentences and further tokenize the sentences;
 
 Split at colon:
 
