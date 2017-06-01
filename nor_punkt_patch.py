@@ -53,7 +53,8 @@ def sent_patch(sentences):
         for char in current_sent:
             if char.isalpha():
                 alpha = 1
-        
+                break
+                
         if alpha != 1:
             nonalpha = current_sent
         else:
