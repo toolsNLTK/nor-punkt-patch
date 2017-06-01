@@ -2,6 +2,8 @@
 Patch for Norwegian sentence tokenizer
 
 Takes a list of sentences and further tokenize the sentences;
+(Gold is Norwegian Dependency Treebank (NDT), 
+ http://www.nb.no/sprakbanken/show?serial=sbr-10)
 
 Split at colon:
 
