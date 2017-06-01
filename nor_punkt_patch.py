@@ -6,7 +6,7 @@ Takes a list of sentences and further tokenize the setences;
 Split at colon:
 
     Punkt: ∗ [...] tre gaver som var gitt til paven personlig: En sjekk på [...]’
-    Gold: [...] tre gaver som var gitt til paven personlig:’ | ’En sjekk på’
+    Gold: [...] tre gaver som var gitt til paven personlig:’ | ’En sjekk på [...]’
 
 Split after delimiter and guillemet:
 
