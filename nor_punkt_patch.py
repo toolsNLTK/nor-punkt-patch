@@ -46,6 +46,7 @@ def sent_patch(sentences):
         if nonalpha != 0:
             current_sent = nonalpha + ' ' + current_sent
             nonalpha = 0
+           
         elif current_sent[0].islower():
             current_sent = interposed_sent + ' ' + current_sent
             if len(retrn) != 0:
