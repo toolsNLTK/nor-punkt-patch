@@ -2,8 +2,6 @@
 Patch for NLTK's Norwegian sent punkt tokenizer
 
 Takes a list of sentences and further tokenize the sentences;
-(Gold is Norwegian Dependency Treebank (NDT), 
- http://www.nb.no/sprakbanken/show?serial=sbr-10)
  
 Split at colon:
 
@@ -29,5 +27,8 @@ Stitch non-alphabetic sentences to a sentence:
 
     Punkt: ∗ '3.' | 'Alternativ til statskirkeordningen og [...]'
     Gold: '3. Alternativ til statskirkeordningen og [...]'
-   
+
+(Gold is Norwegian Dependency Treebank (NDT), 
+ http://www.nb.no/sprakbanken/show?serial=sbr-10)
+ 
 Then returns a list of sentences that match gold.
