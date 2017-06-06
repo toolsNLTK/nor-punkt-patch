@@ -18,7 +18,7 @@ Split after multiple delimiters:
     Punkt: ∗ '[...] meg ned i bilen i går kveld ... Hvordan resten [...]'
     Gold: '[...] meg ned i bilen i går kveld ...' | 'Hvordan resten [...]'
     
-Stitch interpose sentences:
+Stitch interposed sentences:
 
     Punkt: ∗ 'Siden Hagen (intil videre?)' | 'fortsatt kommer til å [...]'
     Gold: 'Siden Hagen (intil videre?) fortsatt kommer til å [...]'
